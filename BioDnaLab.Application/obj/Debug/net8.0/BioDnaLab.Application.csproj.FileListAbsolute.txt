@@ -1,0 +1,15 @@
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\bin\Debug\net8.0\BioDnaLab.Application.deps.json
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\bin\Debug\net8.0\BioDnaLab.Application.dll
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\bin\Debug\net8.0\BioDnaLab.Application.pdb
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\bin\Debug\net8.0\BioDnaLab.Domain.dll
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\bin\Debug\net8.0\BioDnaLab.Domain.pdb
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\obj\Debug\net8.0\BioDnaLab.Application.csproj.AssemblyReference.cache
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\obj\Debug\net8.0\BioDnaLab.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\obj\Debug\net8.0\BioDnaLab.Application.AssemblyInfoInputs.cache
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\obj\Debug\net8.0\BioDnaLab.Application.AssemblyInfo.cs
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\obj\Debug\net8.0\BioDnaLab.Application.csproj.CoreCompileInputs.cache
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\obj\Debug\net8.0\BioDnaLab.Application.csproj.CopyComplete
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\obj\Debug\net8.0\BioDnaLab.Application.dll
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\obj\Debug\net8.0\refint\BioDnaLab.Application.dll
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\obj\Debug\net8.0\BioDnaLab.Application.pdb
+C:\Projects\Learning\Sanjay\BioDnaLab.Application\obj\Debug\net8.0\ref\BioDnaLab.Application.dll

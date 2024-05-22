@@ -1,0 +1,12 @@
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\bin\Debug\net8.0\BioDnaLab.Domain.deps.json
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\bin\Debug\net8.0\BioDnaLab.Domain.dll
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\bin\Debug\net8.0\BioDnaLab.Domain.pdb
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\obj\Debug\net8.0\BioDnaLab.Domain.csproj.AssemblyReference.cache
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\obj\Debug\net8.0\BioDnaLab.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\obj\Debug\net8.0\BioDnaLab.Domain.AssemblyInfoInputs.cache
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\obj\Debug\net8.0\BioDnaLab.Domain.AssemblyInfo.cs
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\obj\Debug\net8.0\BioDnaLab.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\obj\Debug\net8.0\BioDnaLab.Domain.dll
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\obj\Debug\net8.0\refint\BioDnaLab.Domain.dll
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\obj\Debug\net8.0\BioDnaLab.Domain.pdb
+C:\Projects\Learning\Sanjay\BioDnaLab.Domain\obj\Debug\net8.0\ref\BioDnaLab.Domain.dll

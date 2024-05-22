@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zEVEYRMbCbuLr+1gVTzAzAVWBCP1QENakrO8UlUu4OY=",
+  "Source": "BioDnaLab.Api",
+  "BasePath": "_content/BioDnaLab.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

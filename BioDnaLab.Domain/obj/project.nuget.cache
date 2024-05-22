@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vMCUdL+Ngn6yVfJkDzFnwxmJBMY9smL24YxyKcKNKlHVLq5Vb1Yss2d080hQDDg43JaFWFUqfiKng4Wk7HFIng==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Learning\\Sanjay\\BioDnaLab.Domain\\BioDnaLab.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\INNOBDas\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\INNOBDas\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\INNOBDas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
