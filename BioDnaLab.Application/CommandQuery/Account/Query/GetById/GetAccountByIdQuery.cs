@@ -5,6 +5,6 @@ namespace BioDnaLab.Application.CommandQuery.Account.Query.GetById
 {
     public class GetAccountByIdQuery : IRequest<AccountDto>
     {
-        public int AccountId { get; set; }
+        public long AccountId { get; set; }
     }
 }

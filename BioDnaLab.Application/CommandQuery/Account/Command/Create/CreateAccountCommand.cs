@@ -13,10 +13,6 @@ namespace BioDnaLab.Application.CommandQuery.Account.Command.Create
         public string ConfirmPassword { get; set; } = string.Empty;
         public string Address { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-        public DateTime CreatedDate { get; set; }
-        public DateTime ModifiedDate { get; set; }
-        public long CreatedBy { get; set; }
-        public long ModifiedBy { get; set; }
-        public bool IsActive { get; set; }
+        
     }
 }

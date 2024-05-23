@@ -1,10 +1,11 @@
 ﻿using BioDnaLab.Domain.Entity.Account;
+using BioDnaLab.Domain.Entity.Test.TestSubEntities;
 using BioDnaLab.Domain.IRepository.IRepositoryCommand.IRepositoryCommandBase;
 
 namespace BioDnaLab.Domain.IRepository.IRepositoryCommand.IAccount
 {
-    public interface IAccountRepositoryCommand : IBaseRepositoryCommand<AccountEntity, int>
+    public interface IAccountRepositoryCommand : IBaseRepositoryCommand<AccountEntity, long>
     {
-        // You can add more customer-specific methods here if needed
+        Task<AccountEntity> UpdateAsync(long id, AccountEntity entity);
     }
 }

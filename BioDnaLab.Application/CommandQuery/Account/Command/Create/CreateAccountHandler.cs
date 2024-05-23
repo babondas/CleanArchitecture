@@ -29,11 +29,11 @@ namespace BioDnaLab.Application.CommandQuery.Account.Command.Create
                 Password = request.Password,
                 Address = request.Address,
                 Description = request.Description,
-                CreatedDate = request.CreatedDate,
-                ModifiedDate = request.ModifiedDate,
-                CreatedBy = request.CreatedBy,
-                ModifiedBy = request.ModifiedBy,
-                IsActive = request.IsActive
+                CreatedDate = DateTime.Now,
+                ModifiedDate = null,
+                CreatedBy = 1,
+                ModifiedBy = null,
+                IsActive = true
             };
 
             var result = await _repository.AddAsync(entity);

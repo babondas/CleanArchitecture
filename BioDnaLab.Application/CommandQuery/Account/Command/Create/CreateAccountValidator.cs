@@ -43,21 +43,7 @@ namespace BioDnaLab.Application.CommandQuery.Account.Command.Create
 
             RuleFor(x => x.Description)
                 .MaximumLength(500).WithMessage("Description cannot be longer than 500 characters.");
-
-            RuleFor(x => x.CreatedDate)
-                .NotEmpty().WithMessage("Created date is required.");
-
-            RuleFor(x => x.ModifiedDate)
-                .NotEmpty().WithMessage("Modified date is required.");
-
-            RuleFor(x => x.CreatedBy)
-                .GreaterThan(0).WithMessage("Created by must be a valid user ID.");
-
-            RuleFor(x => x.ModifiedBy)
-                .GreaterThan(0).WithMessage("Modified by must be a valid user ID.");
-
-            RuleFor(x => x.IsActive)
-                .NotNull().WithMessage("IsActive status is required.");
+            
         }
     }
 }

@@ -6,7 +6,6 @@ using BioDnaLab.Application.CommandQuery.Account.Dto.Account;
 using BioDnaLab.Application.CommandQuery.Account.Query.Get;
 using BioDnaLab.Application.CommandQuery.Account.Query.GetByEmailAndPassword;
 using BioDnaLab.Application.CommandQuery.Account.Query.GetById;
-using BioDnaLab.Application.CommandQuery.TestVolume.Query.Get;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,17 +21,16 @@ namespace BioDnaLab.Api.Controllers
             _generateToken = generateToken;
         }
 
-        [Authorize]
         [HttpGet("GetAllAccounts")]
         public async Task<IActionResult> GetAllAccounts()
         {
 
-            var accounts = await _mediator.Send(new GetTestVolumeQuery());
+            var accounts = await _mediator.Send(new GetAccountQuery());
             return Ok(accounts);
         }
 
         [HttpGet("GetAccountById/{id}")]
-        public async Task<IActionResult> GetAccountById(int id)
+        public async Task<IActionResult> GetAccountById(long id)
         {
             var account = await _mediator.Send(new GetAccountByIdQuery { AccountId = id });
             if (account == null)
@@ -77,13 +75,13 @@ namespace BioDnaLab.Api.Controllers
             return NoContent();
         }
 
-        //[HttpDelete("DeleteAccount/{id}")]
-        //public async Task<IActionResult> DeleteAccount(long id)
-        //{
-        //    var result = await _mediator.Send(new deletete { Id = id });
-        //    if (result == 0)
-        //        return BadRequest();
-        //    return NoContent();
-        //}
+        [HttpDelete("DeleteAccount/{id}")]
+        public async Task<IActionResult> DeleteAccount(long id)
+        {
+            var result = await _mediator.Send(new DeleteAccountCommand { Id = id });
+            if (result == 0)
+                return BadRequest();
+            return NoContent();
+        }
     }
 }

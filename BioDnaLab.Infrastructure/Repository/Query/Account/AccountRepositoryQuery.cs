@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace BioDnaLab.Infrastructure.Repository.Query.Account
 {
-    public class AccountRepositoryQuery : BaseRepositoryQuery<AccountEntity, int>, IAccountRepositoryQuey
+    public class AccountRepositoryQuery : BaseRepositoryQuery<AccountEntity, long>, IAccountRepositoryQuey
     {
         public AccountRepositoryQuery(BioDnaLabContext context) : base(context)
         {
